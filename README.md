@@ -19,3 +19,6 @@
 
 ##### lsof look all programs that are network
 `~$ lsof -i`
+
+##### host look with ipv4
+`~$ host -t a www.amazon.comlsof`
