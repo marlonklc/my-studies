@@ -1,9 +1,11 @@
 # network-studies
 
 ### commands and brief summary:
-- printf (~$ man printf) -> can format strings
+- printf (~$ man printf) -> used to format strings
 - netcat (~$ man nc) ->  can be used to talk with servers on tcp protocol (transport layer).
 - lsof (~$ man lsof) -> list open files and networking sockets (connected, listen)
+- host (~$ man host) -> used to convert names of DNS to ip address and vice versa.
+- dig (~$ man dig) -> same that `host` but more detailed.
 
 ----
 
