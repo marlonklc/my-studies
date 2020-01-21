@@ -21,4 +21,4 @@
 `~$ lsof -i`
 
 ##### host look with ipv4
-`~$ host -t a www.amazon.comlsof`
+`~$ host -t a www.amazon.com`
