@@ -4,7 +4,7 @@
 #### run a container docker
 ```
 docker run
--d (run container in background)
+  -d (run container in background)
   --rm (delete container when exit)
   -e <env-list> (set env variables)
   -p <port-from>:<port-to> (container port)
