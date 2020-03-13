@@ -8,7 +8,7 @@ docker run -p <port-from>:<port-to> -d(non blocking terminal) <registry-path>
 docker pull <registry-path>
 
 #### tag image to push on registry
-docker tag <image-id> <registry-username>/<image-name>
+docker tag <<image-id>> <<registry-username>>/<<image-name>>
 
 #### push image to registry
 docker push <registry-username>/<image-name>
