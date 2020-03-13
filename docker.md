@@ -2,7 +2,7 @@
 `docker login -u <username> -p <password>`
 
 #### run a container docker
-`docker run -p <port-from>:<port-to> -d(non blocking terminal) <registry-path> `
+`docker run -p <port-from>:<port-to> -d(non blocking terminal) <image-name>`
 
 #### pull image from registry
 `docker pull <registry-path>`
