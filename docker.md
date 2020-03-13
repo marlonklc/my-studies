@@ -2,7 +2,13 @@
 `docker login -u <username> -p <password>`
 
 #### run a container docker
-`docker run -p <port-from>:<port-to> -d(non blocking terminal) <image-name>`
+`docker run 
+  -d (run container in background)
+  --rm (delete container when exit)
+  -e <env-list> (set env variables)
+  -p <port-from>:<port-to> (container port)
+  -v <volume-from>:<volume-to> (bind mount volume)
+  --name <image-name>`
 
 ### build a image from Dockerfile
 `docker build -t <image-name> <path-dockerfile>`
