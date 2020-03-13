@@ -2,7 +2,7 @@
 `docker login -u <username> -p <password>`
 
 #### run a container docker
-`docker run \n
+`docker run \\n
   -d (run container in background)\n
   --rm (delete container when exit)\
   -e <env-list> (set env variables)
