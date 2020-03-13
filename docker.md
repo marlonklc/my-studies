@@ -4,6 +4,9 @@
 #### run a container docker
 `docker run -p <port-from>:<port-to> -d(non blocking terminal) <image-name>`
 
+### build a image from Dockerfile
+`docker build -t <image-name> <path-dockerfile>`
+
 #### pull image from registry
 `docker pull <registry-path>`
 
