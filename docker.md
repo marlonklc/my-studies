@@ -14,7 +14,7 @@ docker run
 #### access to shell on running container
 `docker attach <image-name>`
 
-### build a image from Dockerfile
+#### build a image from Dockerfile
 `docker build -t <image-name> <path-dockerfile>`
 
 #### pull image from registry
