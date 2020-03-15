@@ -1,6 +1,6 @@
 ## Requirements
-### docker (https://docs.docker.com/install/)
-### kubernetes (to this example use minikube)
+### ---- docker (https://docs.docker.com/install/)
+### ---- kubernetes (to this example use minikube)
 - install minikube (choco, windows installer or docker)
 - install kubectl (https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
@@ -19,4 +19,7 @@ minikube start
 #### access service directly on command line
 `minikube service <service-name>`
 
-### istio
+### ---- istio
+
+### check pods on istio
+`kubectl get pods -n istio-system`
