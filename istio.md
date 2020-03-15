@@ -11,5 +11,7 @@
 - install kubectl (https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 #### verify ip address of running cluster in kubeconfig
 `minikube update-context`
+#### access service directly on command line
+`minikube service <service-name>`
 
 ### istio
