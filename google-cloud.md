@@ -1,7 +1,7 @@
 ### requirements
 -- install google sdk (https://cloud.google.com/sdk/install)
 
-#### compute engine
+## compute engine
 Compute engine is like as AWS EC2
 ##### to conect on a compute engine
 `gcloud compute ssh <username>@<instance> --zone <zonename>`
