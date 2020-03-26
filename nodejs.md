@@ -12,8 +12,7 @@ npm install <dependenciename>
 
 # Relational Database Modules
 
-### knex
-
+### >> knex
 #### initial command to generate knexfile
 `npx knex init`
 
@@ -30,4 +29,4 @@ Migrations are a way to make database changes or updates, like creating or dropp
 
 # Non Relational Database Modules
 
-### mongoose (MongoDB)
+### >> mongoose (MongoDB)
