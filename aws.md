@@ -1,9 +1,9 @@
 ### AWS CLI
 - install
 - run `aws configure`
- - type key ID
- - type secret key
- - define zone (us-east-1)
+  - type key ID
+  - type secret key
+  - define zone (us-east-1)
 
 ### create instance EC2 by docker-machine
 `docker-machine create --driver amazonec2 <name>`
