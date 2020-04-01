@@ -21,6 +21,9 @@ FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd <name>') DO %i
   - define a tag with key/value
   - confirm and see on the end your record name and value. PS: Save them for future use
   
+### certificate by AWS CLI
+https://docs.aws.amazon.com/pt_br/elasticloadbalancing/latest/classic/elb-create-https-ssl-load-balancer.html
+  
 ### configuration google domains to validate your ssl created
 - open your google domains on DNS settings
 - find section 'Custom resource records'
