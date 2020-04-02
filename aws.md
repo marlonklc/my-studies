@@ -10,7 +10,7 @@
 - (2) view configs docker-machine (created on step 1) `docker-machine env <name>`
 - (3) configure new docker-machine env (created on step 1) 
 ```
-FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd <name>') DO %i
+@FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd <name>') DO %i
 ```
 
 ## generate SSL certificate with ACM
