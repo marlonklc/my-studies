@@ -25,3 +25,7 @@ docker run
 
 #### push image to registry
 `docker push <registry-username>/<image-name>`
+
+### toggle configs of docker-machine
+- windows: `@FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd <machinename>') DO %i`
+- linux: `eval "$(docker-machine env default)"`
