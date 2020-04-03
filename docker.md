@@ -28,4 +28,4 @@ docker run
 
 ### toggle configs of docker-machine
 - windows: `@FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd <machinename>') DO %i`
-- linux: `eval "$(docker-machine env default)"`
+- linux: `eval "$(docker-machine env <machinename>)"`
