@@ -18,3 +18,8 @@ so finally, merge you master branch with master branch of forked project:
 ```
 git merge <remote-name-whatever>/master
 ```
+### rever to specific commit and push
+```
+git reset --hard <commit-hash>
+git push -f origin <branch>
+```
