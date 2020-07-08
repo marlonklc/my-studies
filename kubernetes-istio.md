@@ -14,9 +14,9 @@ minikube start
   --memory=4096 (in MB)
   --cpus=4
 ```
-#### verify ip address of running cluster in kubeconfig
-`minikube update-context`
-#### access service directly on command line
+#### describe specific or all services on cluster 
+`kubectl describe services <serviceName>`
+#### redirect service directly on command line
 `minikube service <service-name>`
 
 ### ---- istio
