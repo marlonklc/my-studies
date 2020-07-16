@@ -19,7 +19,8 @@ minikube start
 #### redirect service directly on command line
 `minikube service <service-name>`
 
-### namespace
+## NAMESPACE
+That way organize your projects (like a "folder" or a group)
 #### create namespace: `kubectl create namespace <name>`
 #### set current context namespace: `kubectl config set-context --current --namespace=<name>`
 
