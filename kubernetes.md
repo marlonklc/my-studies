@@ -19,6 +19,10 @@ minikube start
 #### redirect service directly on command line
 `minikube service <service-name>`
 
+### namespace
+#### create namespace: `kubectl create namespace <name>`
+#### set current context namespace: `kubectl config set-context --current --namespace=<name>`
+
 ### ---- istio
 
 ### check pods on istio
