@@ -1,2 +1,2 @@
 ## commom commands
-##### show service status: `systemctl status nginx`
+##### show service status: `systemctl status <servicename>`
