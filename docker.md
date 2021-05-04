@@ -1,10 +1,10 @@
 ## Install
-#### enable virtual machine on windows
-`dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
-#### install update on wsl2
-wsl update x64 -> `https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi`
-#### set wsl2 default version (powershell)
-`wsl --set-default-version 2`
+- enable virtual machine on windows
+ - `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+- install update on wsl2
+ - wsl update x64 -> `https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi`
+- set wsl2 default version (powershell)
+ - `wsl --set-default-version 2`
 
 #### login on dockerhub
 `docker login -u <username> -p <password>`
