@@ -22,3 +22,6 @@
 
 ##### host look with ipv4
 `~$ host -t a www.amazon.com`
+
+## show ethernet interface current packages/connections
+`tcpdump -i eth0 '(icmp)' -nn -vv`

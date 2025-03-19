@@ -40,3 +40,34 @@ docker run
 ### toggle configs of docker-machine
 - windows: `@FOR /f "tokens=*" %i IN ('docker-machine env --shell cmd <machinename>') DO %i`
 - linux: `eval "$(docker-machine env <machinename>)"`
+
+### docker stats (memory and cpu usage)
+`docker stats`
+
+
+
+# docker swarm
+init swarm mode, need to configure principal node and slaves node
+`docker swarm init` 
+
+deploy stack by name, based on docker compose file
+`docker stack deploy -c docker-compose.yml <stack>`
+
+list services
+`docker service ls`
+
+list services by stack or stack and service name
+`docker service ps <stack>`
+`docker service ps <stack>_<service>`
+
+scale service by name
+`docker service scale <stack>_<service>=2`
+
+force update/redeploy from stack and service
+`docker service update --force <stack>_<service>`
+
+force update all services from stack
+`docker service ls --format '{{.Name}}' | grep <stack>_ | xargs -I {} docker service update --force {}
+
+show ip addres from docker
+`ip addr show docker0`
