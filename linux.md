@@ -5,7 +5,8 @@
 #### fix problem with 'unexpeted end of file' or '$'\r': command not found' (problem edit linux files using windows via terminal) 
 `sed -i 's/\r$//' filename`
 
-
+#### check first bytes (head) of file
+`head -c 100 <file> | xxd`
 
 ### tools for monitoring memory/cpu usage
 based on: https://signoz.io/guides/graphing-a-process-memory-usage/
